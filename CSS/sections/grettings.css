@@ -1,0 +1,28 @@
+.grettings {
+    background-image: url(../../IMG/grettings/fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {}
+
+.header {}
+
+.logo {}
+
+.nav {}
+
+.nav__list {}
+
+.nav__item {}
+
+.square {}
+
+.grettings__content {}
+
+.grettings__title {}
+
+.grettings__text {}
+
+.grettings__btn {}
