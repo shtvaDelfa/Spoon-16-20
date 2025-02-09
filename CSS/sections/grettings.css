@@ -3,21 +3,48 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 30px;
 }
 
-.container {}
-
-.header {}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo {}
 
 .nav {}
 
-.nav__list {}
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
 
-.nav__item {}
+.nav__item a {
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+}
 
-.square {}
+.square {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
+
+.nav__item:last-child {
+    padding: 11px 17px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.nav__item a:hover {
+    color: var(--colorGreen)
+}
 
 .grettings__content {}
 
