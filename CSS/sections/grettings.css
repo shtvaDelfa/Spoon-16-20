@@ -88,21 +88,3 @@
     margin-top: 34px;
 }
 
-.btn{
-    background-color: var(--colorGreen);
-    padding: 15px 27px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: var(--fontLF);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 187%;
-    text-align: center;
-    color: #fff;
-    transition: transform 1s;
-}
-
-.btn:hover{
-    transform: scale(1.3);
-}
