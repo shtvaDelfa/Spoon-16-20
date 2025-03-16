@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root {
     --fontLF: 'Libre Franklin', serif;
     --fontIBM: "IBM Plex Mono", serif;
     --colorGreen: #5AB963;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body, html{
+body,
+html {
     height: 100%;
     background-color: #F5F5F5;
 }
 
-.container{
+.container {
     max-width: 1178px;
     margin: 0 auto;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.info{
+.info {
     color: #999;
     font-weight: 100;
     font-size: 24px;
@@ -37,7 +38,7 @@ li{
     font-family: var(--fontLF);
 }
 
-.info span{
+.info span {
     color: black;
     font-weight: 700;
 }
@@ -62,7 +63,18 @@ li{
 }
 
 
-ul, ol{
+ul,
+ol {
     margin: 0;
     padding: 0;
+}
+
+.link {
+    font-family: var(--fontIBM);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 164%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #5ab963;
 }
